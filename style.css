@@ -87,6 +87,10 @@ ul.rule-list li{
 ul.rule-list li::before{
   content:"›"; position:absolute; left:0; color: var(--lava-hot); font-weight:700;
 }
+ul.rule-list li b,
+p.body-text b{
+  color: var(--lava-hot); font-weight:700;
+}
 
 /* Hero */
 .hero{
