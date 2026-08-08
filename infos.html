@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volcasia — Infos serveur</title>
+<link rel="icon" href="volcasia-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="sidebar">
+    <a href="index.html" class="brand">
+      <img src="volcasia-icon.png" alt="Logo Volcasia">
+      <span class="brand-name">VOLCASIA</span>
+    </a>
+    <nav>
+      <span class="nav-label">Wiki</span>
+      <a href="index.html">Accueil</a>
+      <a href="reglement.html">Règlement</a>
+      <a href="wiki.html">Wiki du jeu</a>
+      <a href="infos.html" class="active">Infos serveur</a>
+    </nav>
+    <div class="sidebar-foot">
+      Remplace les valeurs ci-contre par tes vraies infos.
+    </div>
+  </aside>
+
+  <main>
+    <section id="infos">
+      <span class="eyebrow">// Connexion</span>
+      <h1 class="page-title">Infos serveur</h1>
+      <p class="lede">Tout ce qu'il faut pour se connecter à Volcasia.</p>
+      <div class="divider"></div>
+
+      <div class="grid">
+        <div class="info-tile">
+          <div class="label">Adresse IP</div>
+          <div class="value lava">play.volcasia.exemple.net</div>
+          <div class="copy-hint">Remplace par ta vraie adresse (Java) ou IP + port (Bedrock)</div>
+        </div>
+        <div class="info-tile">
+          <div class="label">Version</div>
+          <div class="value">1.21.x</div>
+        </div>
+        <div class="info-tile">
+          <div class="label">Édition</div>
+          <div class="value">Java / Bedrock</div>
+          <div class="copy-hint">Précise si le serveur est cross-play</div>
+        </div>
+        <div class="info-tile">
+          <div class="label">Whitelist</div>
+          <div class="value">Sur demande via Discord</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:10px;">Pack de ressources</h3>
+        <p style="color:var(--ash); line-height:1.6; font-size:0.94rem;">
+          Le serveur utilise le pack <code class="inline">Volcanite</code>, qui renomme certains objets vanilla (ex : le rayon de miel devient une pépite de Volcanite, la poche d'encre luisante devient un lingot de Volcanite). Le pack est proposé automatiquement à la connexion.
+        </p>
+      </div>
+
+      <h2 class="section-title">Communauté</h2>
+      <div class="grid">
+        <div class="info-tile">
+          <div class="label">Discord</div>
+          <div class="value">discord.gg/exemple</div>
+        </div>
+        <div class="info-tile">
+          <div class="label">Staff</div>
+          <div class="value">à contacter en jeu ou sur Discord</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Infos serveur — édite ce fichier (infos.html) pour mettre à jour l'IP, la version ou les liens.
+    </footer>
+  </main>
+</div>
+</body>
+</html>
